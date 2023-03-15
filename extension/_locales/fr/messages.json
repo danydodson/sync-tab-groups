@@ -1,0 +1,990 @@
+{
+  "extension_description": {
+    "message": "Sync Tab Groups permet d'organiser vos onglets par groupes. Vous pouvez fermer puis rouvrir vos groupes d'onglets plus tard. Un menu vous permet de trouver et de trier facilement les onglets dans les groupes.",
+    "description": "Description of the extension"
+  },
+  "add_group": {
+    "message": "Créer un nouveau groupe",
+    "description": "Create new group button text"
+  },
+  "search": {
+    "message": "Recherche...",
+    "description": "Place holder in search input"
+  },
+  "clear_search": {
+    "message": "Annuler la recherche",
+    "description": "Clear search help button"
+  },
+  "unnamed_group": {
+    "message": "Groupe Sans Nom",
+    "description": "Default name for unnamed group"
+  },
+  "contextmenu_preferences": {
+    "message": "Préférences",
+    "description": "Open Preferences from the shortcuts Menu"
+  },
+  "expand_menu": {
+    "message": "Agrandir le menu",
+    "description": "Expand Menu hover button"
+  },
+  "reduce_menu": {
+    "message": "Réduire le menu",
+    "description": "Reduce Menu hover button"
+  },
+  "close_group": {
+    "message": "Fermer la fenêtre du groupe",
+    "description": "Hover help for close button"
+  },
+  "remove_group": {
+    "message": "Supprimer le groupe",
+    "description": "Hover help for remove button"
+  },
+  "open_window_group": {
+    "message": "Ouvrir dans une nouvelle fenêtre",
+    "description": "Hover help for open in new window button"
+  },
+  "rename_group": {
+    "message": "Renommer le groupe",
+    "description": "Hover help for rename button"
+  },
+  "show_tabs": {
+    "message": "Voir les onglets du groupe",
+    "description": "Hover help for show tabs in group button"
+  },
+  "hide_tabs": {
+    "message": "Cacher les onglets du groupe",
+    "description": "Hover help for hide tabs in group button"
+  },
+  "undo_removing": {
+    "message": "Annuler la suppression",
+    "description": "Hover help for undo removing button"
+  },
+  "undo_closing": {
+    "message": "Annuler la fermeture",
+    "description": "Hover help for undo closing button"
+  },
+  "force_removing": {
+    "message": "Forcer la suppression",
+    "description": "Hover help for force removing button"
+  },
+  "force_closing": {
+    "message": "Forcer la fermeture",
+    "description": "Hover help for force closing button"
+  },
+  "open_tab": {
+    "message": "Ouvrir l'onglet dans la fenêtre actuelle",
+    "description": "Hover help for open tab button"
+  },
+  "close_tab": {
+    "message": "Supprimer l'onglet et le fermer s'il est ouvert",
+    "description": "Hover help for open tab button"
+  },
+  "move_tab_group": {
+    "message": "Déplacer vers un autre groupe",
+    "description": "Name of the menu in the context (right click on tab)"
+  },
+  "export_groups": {
+    "message": "Exporter les groupes",
+    "description": "Name of the menu"
+  },
+  "import_groups": {
+    "message": "Importer les groupes",
+    "description": "Name of the menu"
+  },
+  "save_bookmarks_groups": {
+    "message": "Sauvegarder les groupes dans vos favoris",
+    "description": "Name of the menu"
+  },
+  "group_title": {
+    "message": "Groupe",
+    "description": "Option section title"
+  },
+  "new_window": {
+    "message": "Une nouvelle fenêtre crée automatiquement un nouveau groupe.",
+    "description": "Label new window"
+  },
+  "remove_empty_groups": {
+    "message": "Supprimer automatiquement les groupes sans onglet.",
+    "description": "Label remove empty groups"
+  },
+  "new_private_window": {
+    "message": "Une nouvelle fenêtre privée crée automatiquement un nouveau groupe.",
+    "description": "Label new private window"
+  },
+  "close_private_window": {
+    "message": "Supprimer le groupe d'une fenêtre privée lorsque celle-ci est fermée.",
+    "description": "Label close private window"
+  },
+  "pinned_tabs_title": {
+    "message": "Onglets épinglés",
+    "description": "Option section title"
+  },
+  "sync_pinned_tabs": {
+    "message": "Inclure les onglets épinglés dans les groupes (sinon ceux-ci ne seront pas fermés lorsque vous changerez de groupe)",
+    "description": "Label sync pinned tabs"
+  },
+  "bookmarks_title": {
+    "message": "Favoris",
+    "description": "Option section title"
+  },
+  "bookmark_help_folder": {
+    "message": "Les favoris sont sauvegardés par défaut dans : Autres marque-pages/SyncTabGroups.",
+    "description": ""
+  },
+  "bookmark_help_moving": {
+    "message": "Pour changer l'emplacement, déplacer le dossier SyncTabGroups n'importe où dans vos favoris.",
+    "description": ""
+  },
+  "bookmark_help_session": {
+    "message": "Le nom de la session est le nom du sous-dossier dans lequel vos groupes sont sauvegardés en tant que favoris.",
+    "description": ""
+  },
+  "bookmark_help_precaution": {
+    "message": "N'ayez pas d'autre dossier nommé : SyncTabGroups.",
+    "description": ""
+  },
+  "name_session": {
+    "message": "Nom de la session :",
+    "description": ""
+  },
+  "examples_session": {
+    "message": "Exemple : Ordinateur 1, Portable...",
+    "description": ""
+  },
+  "save_bookmarks_automatically": {
+    "message": "Sauvegarder automatiquement les groupes dans vos favoris (toutes les 30 s)",
+    "description": ""
+  },
+  "save_now": {
+    "message": "Sauvegarder maintenant",
+    "description": ""
+  },
+  "import_export_title": {
+    "message": "Importer/Exporter les groupes",
+    "description": "Option section title"
+  },
+  "import_export_help_added": {
+    "message": "Les groupes importés sont ajoutés en tant que groupes fermés",
+    "description": ""
+  },
+  "import_export_help_support": {
+    "message": "L'importation accepte les fichiers JSON des extensions : Sync Tab Groups et Tab Groups.",
+    "description": ""
+  },
+  "tab_information": {
+    "message": "Informations sur l'onglet",
+    "description": ""
+  },
+  "tab_title": {
+    "message": "Titre",
+    "description": ""
+  },
+  "tab_address": {
+    "message": "URL",
+    "description": ""
+  },
+  "copy_url": {
+    "message": "Copier l'URL dans le presse-papier",
+    "description": ""
+  },
+  "privileged_url": {
+    "message": "À propos des URLs protégées",
+    "description": ""
+  },
+  "privileged_url_help_reason": {
+    "message": "Sync Tab Groups ne peut pas ouvrir directement les URLs protégées pour des raisons de sécurité :",
+    "description": ""
+  },
+  "open_url_help_method_part_1": {
+    "message": "Cliquer sur le bouton",
+    "description": ""
+  },
+  "open_url_help_method_part_2": {
+    "message": "Coller l'URL dans la barre d'adresse",
+    "description": ""
+  },
+  "open_url_help_method_part_3": {
+    "message": "Appuyer sur Entrée",
+    "description": ""
+  },
+  "privileged_url_help_warning": {
+    "message": "Attention : ces onglets sont fermés automatiquement par Firefox lorsque l'extension est mise à jour ou désactivée.",
+    "description": ""
+  },
+  "shortcut_list": {
+    "message": "Liste des raccourcis",
+    "description": ""
+  },
+  "command_description_swtich_next_group": {
+    "message": "Basculer sur le prochain groupe fermé.",
+    "description": ""
+  },
+  "command_description_swtich_previous_group": {
+    "message": "Basculer sur le précédent groupe fermé.",
+    "description": ""
+  },
+  "command_description_create_group_swtich": {
+    "message": "Créer un nouveau groupe et basculer sur celui-ci.",
+    "description": ""
+  },
+  "command_description_focus_next_group": {
+    "message": "Ouvrir la fenêtre du prochain groupe ouvert.",
+    "description": ""
+  },
+  "command_description_focus_previous_group": {
+    "message": "Ouvrir la fenêtre du précédent groupe ouvert.",
+    "description": ""
+  },
+  "command_description_remove_group_swtich": {
+    "message": "Ferme et supprime le groupe actuellement ouvert dans la fenêtre, puis bascule sur le prochain groupe fermé.",
+    "description": ""
+  },
+  "command_description__execute_browser_action": {
+    "message": "Ouvrir le menu de l'extension",
+    "description": ""
+  },
+  "command_shortcuts": {
+    "message": "Raccourci",
+    "description": ""
+  },
+  "command_description": {
+    "message": "Description",
+    "description": ""
+  },
+  "toolbar_menu": {
+    "message": "Menu de la barre d'outils",
+    "description": ""
+  },
+  "icon_option": {
+    "message": "Utiliser une icône blanche",
+    "description": ""
+  },
+  "show_tabs_number": {
+    "message": "Afficher le nombre d'onglets à côté de chaque groupe",
+    "description": ""
+  },
+  "show_search_bar": {
+    "message": "Afficher la barre de recherche",
+    "description": ""
+  },
+  "shortcuts": {
+    "message": "Raccourcis",
+    "description": ""
+  },
+  "allow_global_shortcuts": {
+    "message": "Autoriser les raccourcis dans le navigateur",
+    "description": ""
+  },
+  "show_title_window": {
+    "message": "Préfixer le titre des fenêtres avec le nom des groupes ouverts",
+    "description": ""
+  },
+  "group_name": {
+    "message": "Nom",
+    "description": ""
+  },
+  "bookmarks_weak_help": {
+    "message": "La sauvegarde automatique dans les favoris est instable. Il est actuellement recommandé de ne pas l'utiliser.",
+    "description": ""
+  },
+  "label_sort_custom": {
+    "message": "Personnalisé",
+    "description": ""
+  },
+  "label_sort_old": {
+    "message": "Les plus anciennement créés en premier",
+    "description": ""
+  },
+  "label_sort_recent": {
+    "message": "Les plus récemment créés en premier",
+    "description": ""
+  },
+  "label_sort_alphabetical": {
+    "message": "Ordre alphabétique",
+    "description": ""
+  },
+  "label_sort_accessed": {
+    "message": "Les plus récemment utilisés en premier",
+    "description": "Name of sorting in select in option page"
+  },
+  "unpin_tab": {
+    "message": "Relâcher cet onglet",
+    "description": "In context menu on tab in menu"
+  },
+  "pin_tab": {
+    "message": "Épingler cet onglet",
+    "description": "In context menu on tab in menu"
+  },
+  "open_group": {
+    "message": "Cliquer pour basculer sur ce groupe dans la fenêtre actuelle.",
+    "description": "Hover help for open group click"
+  },
+  "expand_all_groups": {
+    "message": "Dévoiler tous les groupes (voir tous les onglets)",
+    "description": "Hover help the button expanding all groups (see tabs)"
+  },
+  "reduce_all_groups": {
+    "message": "Réduire tous les groupes (cacher tous les onglets)",
+    "description": "Hover help for button reducing all groups (hide tabs)"
+  },
+  "manage_groups": {
+    "message": "Gérer les groupes",
+    "description": ""
+  },
+  "open_url_help_method": {
+    "message": "Ouverture manuelle :",
+    "description": ""
+  },
+  "state_new_normal_window": {
+    "message": "Nouvelles fenêtres",
+    "description": ""
+  },
+  "private_window_title": {
+    "message": "Fenêtres privées",
+    "description": "Option section title"
+  },
+  "label_select_sorting_type": {
+    "message": "Méthode de tri des groupes",
+    "description": ""
+  },
+  "to_synchronize_window": {
+    "message": "Créer un nouveau groupe à partir des onglets de la fenêtre",
+    "description": "Label for group visible in the popup (max 60 chars)"
+  },
+  "to_unsynchronize_window": {
+    "message": "Supprimer le groupe actuel en gardant les onglets ouverts",
+    "description": "Status in Mainbar (Menu) when a group is invisible (max 60 chars)"
+  },
+  "contextmenu_backup": {
+    "message": "Sauvegarde manuelle",
+    "description": "Right click on extension icon, the title for doing a backup."
+  },
+  "options_about_start": {
+    "message": "Bienvenue ! Je recommande vivement de commencer par visiter les différents menus d'options. Ainsi, Sync Tab Groups pourra correspondre au mieux à vos besoins. De plus, grâce aux explications vous pourrez mieux comprendre son fonctionnement.",
+    "description": ""
+  },
+  "options_about_further": {
+    "message": "Pour plus d'informations, consultez le Guide (lien dans le menu de navigation) sur le site officiel de Sync Tab Groups.",
+    "description": "Not used yet!"
+  },
+  "options_about_enjoy": {
+    "message": "J'espère que vous appréciez votre expérience avec Sync Tab Groups. Si c'est le cas, n'hésitez pas à laisser votre avis sur la page de téléchargement de l'extension.",
+    "description": "Message in the about section of the Preferences"
+  },
+  "options_about_contribute": {
+    "message": "Vous pouvez aussi contribuer ! Trouver des bogues, suggérer de nouvelles fonctionnalités, participer aux traductions... N'hésitez pas à me contacter.",
+    "description": "Message in the about section of the Preferences"
+  },
+  "options_about_dev": {
+    "message": "Sync Tab Groups est une extension que je développe sur mon temps libre. Je fais tout mon possible pour fournir la meilleur expérience possible. Je m'excuse donc pour les éventuels problèmes rencontrés.",
+    "description": "Message in the about section of the Preferences"
+  },
+  "options_help_title": {
+    "message": "Aide",
+    "description": ""
+  },
+  "options_behaviors_help_title_invisible": {
+    "message": "Invisible",
+    "description": ""
+  },
+  "options_behaviors_help_invisible": {
+    "message": "Par défaut les nouvelles fenêtres ouvertes sans Sync Tab Groups sont invisibles.",
+    "description": ""
+  },
+  "options_behaviors_help_title_visible": {
+    "message": "Visible",
+    "description": ""
+  },
+  "options_behaviors_help_visible_new": {
+    "message": "Toute nouvelle fenêtre ouverte sans Sync Tab Groups crée un nouveau \"Groupe Sans Nom\".",
+    "description": ""
+  },
+  "options_behaviors_help_change_visibility": {
+    "message": "Toute fenêtre peut passer de/vers l'état visible/invisible depuis le menu. (bouton en bas à gauche)",
+    "description": ""
+  },
+  "options_behaviors_pinned_excluded": {
+    "message": "Exclu",
+    "description": "Pinned Tabs are not part of a group."
+  },
+  "options_behaviors_pinned_excluded_notpart": {
+    "message": "Les onglets épinglés ne sont pas inclus dans les groupes.",
+    "description": ""
+  },
+  "options_behaviors_pinned_excluded_switching": {
+    "message": "Changer de groupe, ou en fermer un, ne modifie pas les onglets épinglés.",
+    "description": ""
+  },
+  "options_behaviors_pinned_excluded_usecase": {
+    "message": "Cas d'utilisation : boîte mail, lecteur de musique...",
+    "description": ""
+  },
+  "options_behaviors_pinned_included": {
+    "message": "Inclus",
+    "description": "Pinned are saved in the group"
+  },
+  "options_behaviors_pinned_included_part": {
+    "message": "Les onglets épinglés sont inclus dans le groupe de la fenêtre.",
+    "description": ""
+  },
+  "options_behaviors_pinned_included_switching": {
+    "message": "Fermer, ou changer de groupe, ferme et sauvegarde les onglets épinglés dans le groupe.",
+    "description": ""
+  },
+  "options_behaviors_pinned_included_usecase": {
+    "message": "Cas d'usage : les onglets importants et mieux visibles",
+    "description": ""
+  },
+  "options_behaviors_tabsopening": {
+    "message": "Ouverture des onglets",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_discarded": {
+    "message": "Veille",
+    "description": "Tabs are not fully loaded on opening"
+  },
+  "options_behaviors_tabsopening_discarded_lighter": {
+    "message": "Plus léger et plus rapide",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_discarded_notfullyloaded": {
+    "message": "Seul l'onglet actif est chargé. (le reste des onglets est gardé en veille)",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_discarded_loadedclick": {
+    "message": "Les onglets gardés en veille ne seront chargés qu'une fois activés (au clic/focus).",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_full": {
+    "message": "Complet",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_full_loadedopening": {
+    "message": "Tous les onglets sont chargés à l'ouverture.",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_full_heavier": {
+    "message": "Consomme plus de mémoire et de données réseaux.",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_limits": {
+    "message": "Limitations (dans les deux cas)",
+    "description": "Limits for tabs opening behavior"
+  },
+  "options_behaviors_tabsopening_limits_temporary": {
+    "message": "Les données temporaires (champs de formulaire etc) ajoutées avant que les onglets ne soient fermés sont supprimées. (limite du navigateur)",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_limits_history": {
+    "message": "L'historique des onglets ne sera pas restauré. (limite du navigateur)",
+    "description": ""
+  },
+  "options_behaviors_private": {
+    "message": "Privée",
+    "description": "Behavior of the Private windows"
+  },
+  "options_behaviors_private_visible": {
+    "message": "Toute nouvelle fenêtre privée ouverte sans l'aide de Sync Tab Groups sera visible en tant que nouveau groupe privé.",
+    "description": ""
+  },
+  "options_behaviors_private_groups": {
+    "message": "Tout groupe ouvert dans une fenêtre privée devient un groupe privé.",
+    "description": ""
+  },
+  "options_behaviors_private_notsaved": {
+    "message": "Les groupes privés ne sont pas sauvegardés sur le disque.",
+    "description": ""
+  },
+  "options_behaviors_private_autoremoved": {
+    "message": "La fermeture d'un groupe privé entraîne automatiquement sa suppression.",
+    "description": ""
+  },
+  "options_behaviors_private_restart": {
+    "message": "Un redémarrage du navigateur ferme et supprime toutes les fenêtres privées ainsi que tous les groupes privés.",
+    "description": ""
+  },
+  "options_behaviors_private_invisible": {
+    "message": "Invisible",
+    "description": "Behavior of the Private windows"
+  },
+  "options_behaviors_private_invisible_creation": {
+    "message": "Toute fenêtre privée ouverte sans l'aide de Sync Tab Groups est invisible.",
+    "description": ""
+  },
+  "options_behaviors_private_changestate": {
+    "message": "Toute fenêtre privée peut passer de/vers l'état privée/invisible depuis le menu.",
+    "description": ""
+  },
+  "options_settings_others": {
+    "message": "Autres",
+    "description": "Subsection in settings"
+  },
+  "options_settings": {
+    "message": "Paramètres",
+    "description": "Option section for the groups settings (behavior)"
+  },
+  "options_interface": {
+    "message": "Interface",
+    "description": "Option section for the groups interface"
+  },
+  "options_interface_windows": {
+    "message": "Fenêtres",
+    "description": "Option subsection for the groups interface"
+  },
+  "options_interface_groups": {
+    "message": "Groupes",
+    "description": "Option subsection for the groups interface"
+  },
+  "options_interface_sortexplanation_custom": {
+    "message": "Personaliser : Drag & Drop pour positionner les groupes",
+    "description": ""
+  },
+  "options_interface_sortexplanation_alphabetical": {
+    "message": "Alphabétique : Trier par nom",
+    "description": ""
+  },
+  "options_interface_sortexplanation_last": {
+    "message": "Dernier accès : Trier par dernière utilisation",
+    "description": ""
+  },
+  "options_interface_sortexplanation_old": {
+    "message": "Les plus anciennement créés en premier",
+    "description": ""
+  },
+  "options_interface_sortexplanation_recent": {
+    "message": "Les plus récemment créés en premier",
+    "description": ""
+  },
+  "options_groups": {
+    "message": "Groupes",
+    "description": "Option section for the groups data"
+  },
+  "options_groups_backup_local": {
+    "message": "Sauvegarde locale",
+    "description": ""
+  },
+  "options_groups_backup_download": {
+    "message": "Téléchargement de la sauvegarde",
+    "description": ""
+  },
+  "options_groups_backup_behavior": {
+    "message": "Comportement",
+    "description": ""
+  },
+  "options_groups_backup_behavior_download": {
+    "message": "Téléchargement automatique d'un fichier incluant tous les groupes (sauf ceux privés).",
+    "description": ""
+  },
+  "options_groups_backup_behavior_invisible": {
+    "message": "Le téléchargement est invisible dans l'historique des téléchargements.",
+    "description": ""
+  },
+  "options_groups_backup_behavior_distinctfile": {
+    "message": "Chaque délai génère son propre fichier de sauvegarde.",
+    "description": ""
+  },
+  "options_groups_backup_behavior_overwritten": {
+    "message": "Chaque délai écrasera son propre fichier de sauvegarde précédent.",
+    "description": ""
+  },
+  "options_groups_backup_location": {
+    "message": "Emplacement",
+    "description": ""
+  },
+  "options_groups_backup_location_subfolder": {
+    "message": "Un sous-dossier '$FOLDER$' sera créé dans le dossier de téléchargement par défaut du navigateur.",
+    "description": "",
+    "placeholders": {
+      "folder": {
+        "content": "$1",
+        "example": "backup/"
+      }
+    }
+  },
+  "options_groups_backup_location_restiction": {
+    "message": "L'emplacement n'est pas modifiable : le navigateur impose que le sous-dossier soit crée dans le dossier de téléchargement par défaut.",
+    "description": ""
+  },
+  "options_groups_backup_timer": {
+    "message": "Explication des délais",
+    "description": ""
+  },
+  "options_groups_backup_timer_start": {
+    "message": "Les délais démarrent quand l'extension est lancée ou quand l'option de sauvegarde est activée. La sauvegarde est effectuée quand le délai est atteint.",
+    "description": ""
+  },
+  "options_groups_backup_timer_done": {
+    "message": "La sauvegarde est effectuée quand le délai est atteint.",
+    "description": ""
+  },
+  "options_groups_backup_timer_reset": {
+    "message": "Les délais sont remis à 0 quand le navigateur redémarre ou bien quand l'extension ou l'option de sauvegarde est désactivée.",
+    "description": ""
+  },
+  "options_groups_backup_manual": {
+    "message": "Sauvegarde manuelle",
+    "description": ""
+  },
+  "options_groups_backup_manual_button": {
+    "message": "Depuis le menu des raccourcis (clic droit sur l'icône de l’extension).",
+    "description": ""
+  },
+  "options_groups_backup_manual_file": {
+    "message": "Sauvegardé dans un fichier unique, nommé \"manual\", aussi écrasé à chaque nouvelle sauvegarde.",
+    "description": ""
+  },
+  "options_groups_backup_every": {
+    "message": "Réalisé",
+    "description": "See options_groups_backup_t_..., a space is automatically added after"
+  },
+  "options_groups_backup_t_5mins": {
+    "message": "toutes les 5 minutes",
+    "description": "Follows options_groups_backup_every"
+  },
+  "options_groups_backup_t_1h": {
+    "message": "toutes les heures",
+    "description": ""
+  },
+  "options_groups_backup_t_4h": {
+    "message": "toutes les 4 heures",
+    "description": ""
+  },
+  "options_groups_backup_t_1d": {
+    "message": "tous les jours",
+    "description": ""
+  },
+  "options_groups_backup_t_1w": {
+    "message": "toutes les semaines",
+    "description": ""
+  },
+  "options_groups_cleaning": {
+    "message": "Nettoyage",
+    "description": ""
+  },
+  "options_groups_cleaning_removeall": {
+    "message": "Supprimer tous les groupes",
+    "description": ""
+  },
+  "options_groups_cleaning_removeall_warning": {
+    "message": "Une fois l'opération effectuée, vous ne pourrez plus retrouver vos groupes supprimés !",
+    "description": ""
+  },
+  "options_button_enable": {
+    "message": "Activer",
+    "description": "Button Title"
+  },
+  "options_button_disable": {
+    "message": "Désactiver",
+    "description": "Button Title"
+  },
+  "options_about": {
+    "message": "À propos",
+    "description": "Option Section Title"
+  },
+  "options_guide": {
+    "message": "Guide",
+    "description": "Option Section Title"
+  },
+  "change_window_invisible": {
+    "message": "Cliquer pour rendre le groupe invisible (suppression)",
+    "description": "Hover help for button in the bottom left of the menu"
+  },
+  "change_window_visible": {
+    "message": "Cliquer pour rendre la fenêtre visible (sera ajoutée en tant que nouveau groupe)",
+    "description": "Hover help for button in the bottom left of the menu"
+  },
+  "open_manager": {
+    "message": "Ouvrir le gestionnaire de groupes",
+    "description": "Hover help for button in the bottom of the menu"
+  },
+  "group_manager": {
+    "message": "Gestionnaire de groupes",
+    "description": "Tab name where you can organize your groups"
+  },
+  "group_manager_single_button": {
+    "message": "Unique",
+    "description": "Button in Groups Manager for showing only one side"
+  },
+  "group_manager_split_button": {
+    "message": "Double",
+    "description": "Button in Groups Manager for showing 2 sides"
+  },
+  "options_shortcuts_global": {
+    "message": "Raccourcis globaux",
+    "description": "Shortcuts available from anywhere in the browser"
+  },
+  "notification_update_title": {
+    "message": "Sync Tab Groups a été mis à jour avec la version",
+    "description": "Title in the notification displayed when the extension is updated"
+  },
+  "notification_update_message": {
+    "message": "Cliquer ici pour voir les changements apportés par la nouvelle version.",
+    "description": "Message in the notification displayed when the extension is updated"
+  },
+  "options_shortcuts_navigation": {
+    "message": "Navigation",
+    "description": "Shortcuts available from the groups interface (Popup & manager)"
+  },
+  "options_shortcuts_navigation_allow": {
+    "message": "Autoriser les raccourcis de navigation depuis l'interface des groupes.",
+    "description": ""
+  },
+  "command_description_general_down": {
+    "message": "Groupe/Onglet suivant (ou premier)",
+    "description": ""
+  },
+  "command_description_general_up": {
+    "message": "Groupe/Onglet précédent (ou dernier)",
+    "description": ""
+  },
+  "command_description_general_insert": {
+    "message": "Créer un nouveau groupe (valider avec \"Entrée\")",
+    "description": ""
+  },
+  "command_description_general_escape": {
+    "message": "Fermer le menu (action par défaut)",
+    "description": ""
+  },
+  "command_description_general_home": {
+    "message": "Premier groupe",
+    "description": ""
+  },
+  "command_description_general_end": {
+    "message": "Dernier groupe",
+    "description": ""
+  },
+  "command_description_general_pageup": {
+    "message": "Sélectionner le premier onglet (si un onglet est sélectionné)",
+    "description": ""
+  },
+  "command_description_general_pagedown": {
+    "message": "Sélectionner le dernier onglet (si un onglet est sélectionné)",
+    "description": ""
+  },
+  "command_description_general_shift_pageup": {
+    "message": "Réduire tous les groupes",
+    "description": ""
+  },
+  "command_description_general_shift_pagedown": {
+    "message": "Dévoiler tous les groupes",
+    "description": ""
+  },
+  "command_description_general_ctrl_f": {
+    "message": "Mettre le focus dans la barre de recherche",
+    "description": ""
+  },
+  "command_description_popup_ctrl_m": {
+    "message": "Ouvrir le gestionnaire de groupes",
+    "description": ""
+  },
+  "command_description_popup_ctrl_p": {
+    "message": "Ouvrir les préférences",
+    "description": ""
+  },
+  "command_description_popup_ctrl_o": {
+    "message": "Rendre le groupe visible/invisible",
+    "description": ""
+  },
+  "command_description_popup_ctrl_l": {
+    "message": "Changer la taille du menu (petit/grand)",
+    "description": ""
+  },
+  "command_description_group_space": {
+    "message": "Montrer/Cacher les onglets",
+    "description": ""
+  },
+  "command_description_group_enter": {
+    "message": "Ouvrir le groupe (ou mettre le focus sur celui-ci)",
+    "description": ""
+  },
+  "command_description_group_shift_enter": {
+    "message": "Ouvrir le groupe dans une nouvelle fenêtre (ou mettre le focus sur celui-ci)",
+    "description": ""
+  },
+  "command_description_group_delete": {
+    "message": "Fermer le groupe (ou forcer)",
+    "description": ""
+  },
+  "command_description_group_shift_delete": {
+    "message": "Supprimer le groupe (ou forcer)",
+    "description": ""
+  },
+  "command_description_group_backspace": {
+    "message": "Annuler la fermeture ou la suppression",
+    "description": ""
+  },
+  "command_description_group_ctrl_e": {
+    "message": "Modifier le nom du groupe (valider avec \"Entrée\" / annuler avec \"Maj + Retour\")",
+    "description": ""
+  },
+  "command_description_group_shift_up": {
+    "message": "Déplacer le groupe à la position précédente (si le tri des groupes personnalisé est sélectionné)",
+    "description": ""
+  },
+  "command_description_group_shift_down": {
+    "message": "Déplacer le groupe à la position suivante (si le tri des groupes personnalisé est sélectionné)",
+    "description": ""
+  },
+  "command_description_tab_enter": {
+    "message": "Ouvrir l'onglet (ou mettre le focus sur celui-ci)",
+    "description": ""
+  },
+  "command_description_tab_shift_enter": {
+    "message": "Ouvrir l'onglet dans une nouvelle fenêtre (ou mettre le focus sur celui-ci)",
+    "description": ""
+  },
+  "command_description_tab_space": {
+    "message": "Mettre le focus sur le groupe parent (appuyer de nouveau pour cacher les onglets)",
+    "description": ""
+  },
+  "command_description_tab_delete": {
+    "message": "Fermer l'onglet",
+    "description": ""
+  },
+  "command_description_tab_ctrl_enter": {
+    "message": "Ouvrir un onglet identique dans la fenêtre actuelle",
+    "description": ""
+  },
+  "command_description_tab_shift_p": {
+    "message": "Épingler/Relâcher l'onglet",
+    "description": ""
+  },
+  "command_description_tab_shift_up": {
+    "message": "Déplacer l'onglet à la position précédente",
+    "description": ""
+  },
+  "command_description_tab_shift_down": {
+    "message": "Déplacer l'onglet à la position suivante",
+    "description": ""
+  },
+  "command_description_searchbar_shift_backspace": {
+    "message": "Vider le champs de recherche",
+    "description": ""
+  },
+  "command_description_addbutton_shift_backspace": {
+    "message": "Annuler la création d'un groupe",
+    "description": ""
+  },
+  "command_description_addbutton_enter": {
+    "message": "Valider le nom et créer le groupe",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_recommendation": {
+    "message": "Recommandations pour Chrome",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_recommendation_state": {
+    "message": "Tous les onglets en veille sont fermés quand l'extension est désactivée, désinstallée ou mise à jour. (s'applique uniquement à Chrome)",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_recommendation_button": {
+    "message": "Le bouton `$BUTTON$` charge tous les onglets (l'un après l'autre) non ouverts puis les libère de la mémoire avec la fonction du navigateur.",
+    "description": "",
+    "placeholders": {
+      "button": {
+        "content": "$1",
+        "example": "Title of the button in this section (see options_behaviors_tabsopening_reload)"
+      }
+    }
+  },
+  "options_behaviors_tabsopening_recommendation_update": {
+    "message": "Le chargement des onglets est effectué automatiquement avant une mise à jour de l'extension. (s'applique uniquement à Chrome)",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_reload": {
+    "message": "Charger les onglets en veille",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_confirm_reload": {
+    "message": "Êtes-vous sûr de vouloir charger tous les onglets en veille ?",
+    "description": ""
+  },
+  "options_behaviors_tabsopening_nothing_reload": {
+    "message": "Il n'y a aucun onglet en veille.",
+    "description": ""
+  },
+  "options_remove_groups_confirm": {
+    "message": "Êtes-vous sûr de vouloir supprimer tous les groupes ?",
+    "description": ""
+  },
+  "options_about_start_title": {
+    "message": "Bienvenue",
+    "description": ""
+  },
+  "options_about_enjoy_title": {
+    "message": "Partager",
+    "description": ""
+  },
+  "options_about_contribute_title": {
+    "message": "Contribuer",
+    "description": ""
+  },
+  "options_about_dev_title": {
+    "message": "Merci",
+    "description": ""
+  },
+  "tab_show_actions_menu": {
+    "message": "Ouvrir le menu des actions",
+    "description": ""
+  },
+  "selector_select_all": {
+    "message": "Sélectionner tous les onglets et tous les groupes.",
+    "description": "In the selector popup (import/export)"
+  },
+  "selector_select_none": {
+    "message": "Désélectionner tous les onglets et tous les groupes.",
+    "description": "In the selector popup (import/export)"
+  },
+  "remove_all_groups": {
+    "message": "Supprimer tous les groupes",
+    "description": ""
+  },
+  "switch_hidden_disable_sync_pinned": {
+    "message": "Les onglets cachés ne peuvent fonctionner si les onglets épinglés sont inclus dans les groupes. Si vous activez cette option, les onglets épinglés ne seront plus inclus dans les groupes. Continuer ?",
+    "description": ""
+  },
+  "switch_pinned_included_disable_hidden": {
+    "message": "Les onglets cachés ne peuvent fonctionner si les onglets épinglés sont inclus dans les groupes. Si vous activez cette option, les onglets épinglés seront inclus dans les groupes mais vos onglets ne pourront plus être cachés. Continuer ?",
+    "description": ""
+  },
+  "close_hidden_tab": {
+    "message": "Fermer cet onglet caché",
+    "description": "From tab context menu"
+  },
+  "close_hidden_tabs_in_group": {
+    "message": "Fermer les onglets cachés de ce groupe",
+    "description": "From tab context menu"
+  },
+  "setting_discard_hidden_tab": {
+    "message": "Mettre les onglets en veille lorsqu'ils sont cachés",
+    "description": ""
+  },
+  "setting_remove_unknown_hidden_tabs": {
+    "message": "Supprimer automatiquement les onglets cachés n'appartenant à aucun groupe",
+    "description": ""
+  },
+  "setting_confirm_unknown_hidden_tabs": {
+    "message": "Êtes-vous sûr de vouloir fermer tous les onglets cachés n'appartenant à aucun groupe ?",
+    "description": ""
+  },
+  "setting_close_all_hidden_tabs": {
+    "message": "Fermer *TOUS* les onglets cachés du navigateur",
+    "description": ""
+  },
+  "setting_confirm_close_all_hidden_tabs": {
+    "message": "Êtes-vous sûr de vouloir fermer tous les onglets cachés du navigateur ?",
+    "description": ""
+  },
+  "setting_nothin_close_all_hidden_tabs": {
+    "message": "Aucun onglet caché n'est ouvert",
+    "description": ""
+  },
+  "setting_download_error_log": {
+    "message": "Télécharger le journal d'erreurs",
+    "description": ""
+  },
+  "setting_enable_error_log": {
+    "message": "Activer la journalisation des erreurs.",
+    "description": ""
+  }
+}

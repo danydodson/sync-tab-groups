@@ -1,0 +1,16 @@
+{
+  "add_group": {
+    "message": "Nieuwe groep toevoegen",
+    "description": "Nieuwe groep toevoegen"
+  },
+
+  "unnamed_group": {
+    "message": "Niet-benoemde groep",
+    "description": "Niet-benoemde groep"
+  },
+
+  "close_group": {
+    "message": "Groep sluiten",
+    "description": "Hover help for close button"
+  }
+}

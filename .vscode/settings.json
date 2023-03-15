@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "*/**/manifest.json"
+      ],
+      "url": "https://raw.githubusercontent.com/muffinresearch/web-extension-manifest-schema/master/src/manifest-schema.json"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+body {
+  background-color: #f9f9fa;
+  color: #444;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/*** Manage Bar ***/
+#menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #424f5a;
+  width: 100%;
+  color: #c4cdd4;
+  height: 50px;
+  z-index: 1;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menu .title {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+  font-size: 32px;
+  color: #424f5a;
+}
+
+#menu .title span {
+  padding-left: 10px;
+}
+
+#menu .right-buttons {
+  display: inline-block;
+  margin: auto 0;
+}
+
+/*** End Manage Bar ***/
+
+/*** Manage Panel ***/
+
+/** Group Action Bar **/
+
+.group-action {
+  display: flex;
+  background-color: var(--not-checked);
+}
+
+.group-action.left {
+  align-items: flex-start;
+}
+
+.group-action.right {
+  align-items: flex-end;
+}
+
+.group-action>i {
+  font-size: 30px;
+  cursor: pointer;
+  width: 32px;
+  margin: auto;
+  padding: 6px 0;
+  box-sizing: border-box;
+}
+
+.group-action>i:hover {
+  background-color: var(--not-checked-hover);
+  cursor: pointer;
+}
+
+.searchbar {
+  flex: 1;
+}
+
+/** Group Action Bar **/
+
+#manage-panel {
+  width: 100%;
+}
+
+.group-lists {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  overflow-x: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.invisible {
+  display: none !important;
+}
+
+/** Group Lists **/
+#manage-panel .left-list,
+#manage-panel .right-list {
+  box-sizing: content-box;
+  display: inline-block;
+  max-width: 800px;
+  min-width: 350px;
+  border-left: 1px solid #424f5a;
+  border-right: 1px solid #424f5a;
+}
+
+.group-list {
+  height: calc(100vh - 147px) !important;
+  box-sizing: border-box;
+}
+
+#manage-panel .left-list {}
+
+#manage-panel .half {}
+
+/** End Group Lists **/
+
+/** Below Actions **/
+.belowActions {
+  height: 50px;
+  width: 100%;
+  border-top: 4px solid #424f5a;
+  background-color: var(--not-checked);
+}
+
+.belowActions i {
+  font-size: 40px;
+  cursor: pointer;
+  width: 50px;
+  text-align: center;
+  height: 100%;
+}
+
+.belowActions i:hover {
+  background-color: var(--not-checked);
+}
+
+
+
+/** End Below Actions **/
+/*** End Manage Panel ***/
